@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="indigo">
+	<img src="clock.png" style="background-size: 50px;">
+	<div class="message">
+		<h5 style="color:#858585">The message and Image will change according to the time</h5>
+		
+	</div>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3">
+		<h5 class="tt">TIME</h5>
+	</div>
+	<div class="box4">
+		<h3 class="grab" id="healthy">GRAB SOME HEALTHY BREAKFAST!!!</h3>
+	</div>
+	<div class="box5" id="img">
+		<img src="curton.png" class="curton">
+	</div>
+	<div class="box">
+	<img src="sun.png" class="sun">
+	<form>
+		<h4 class="up">Set Wake Up Time</h4>
+		 <select class="input">
+      
+      <option value='blue'>6 AM - 7AM</option>
+      <option value='blue'>8 AM - 9 AM</option>
+      <option value='blue'>9 AM- 10 AM</option>
+      <option value='blue'>11 AM- 11:55 AM</option>
+      
+    </select>
+
+
+		<img src="spoon.png" class="spoon">
+		<h4 class="Lunch">Set lunch time</h4>
+		<select class="input1">
+      <option value='blue'>12 PM- 1 PM</option>
+      
+</select>
+		
+		<img src="zz.png" class="zz">
+		<h4 class="nap">Set nap time</h4>
+		<select class="input2">
+      <option value='blue'>4 PM - 5 PM</option>
+      
+    </select>
+
+		<h4 class="ngt">Set night time</h4>
+		<select class="input3">
+			<option value='blue'>4 PM - 5 PM</option>
+      
+      
+    </select>
+
+</form>
+		
+</div>
+
+<div class="tm1"id="hrs"><h3>10 HOURS</h3></div>
+<div class="tm2"id="mins"><h3 style="font-size: 21px;">00 <br>min</h3></div>
+<div class="tm3" id="sec"><h3 style="font-size: 21px;">01<br> sec</h3></div>
+<div class="tm4" id="am"><h3 style="font-size: 21px;">AM</h3></div>
+
+
+<div class="goodmorning" id="morning">
+	<h3 style="color: white; text-align: left;text-decoration: bold;
+	margin-bottom: 20px; margin-left: 10px;">GOOD MORNING!! WAKE UP !!
+</h3>	
+</div>
+ <button class="butt" id="hello" onclick="executE()"></button>
+	<h3 class="butt"></h3>
+</div>
+<div id="basetable">
+        <span id="wake"></span><br>
+        <span id="lunc">Lunch Time : 12PM - 1PM</span>
+        <span id="nap">Nap Time : 4PM - 5PM</span><br>
+        <span id="nig">Night Time : 8PM - 9AM</span>
+    </div>
+	
+
+</div>
+<div class="set">
+	<h5 style="color:#858585">Time will be updated here after clicking on "Set Alarm"</h5>
+	
+</div>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
